@@ -11,7 +11,11 @@ public class ChatMessage {
     private String receiverId;
     private String message;
     private String timestamp;
-	
+
+	public ChatMessage(){
+
+	}
+
     public ChatMessage(String senderId, String receiverId, String message) {
         this.senderId = senderId;
         this.receiverId = receiverId;
